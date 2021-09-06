@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+               </button>
+                <a class="navbar-brand" href="#">Vibgyor</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar"><ul class="nav navbar-nav">
+            <li >School name</li>
+            <li >Campus life</li>
+            <li >Achievements</li>
+            <li >What’s New</li>
+            <li >Alumni</li>
+            <li >Contact us</li>
+
+             </ul>
+            </div>
+        </nav>
+        
+        <div class="video">
+        <marquee width="60%" direction="right" height="100px">
+            Vibgyor High Bannerghatta
+</marquee>
+            <iframe width="1500" height="900" src="https://www.youtube.com/embed/PwVibQkrttk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    
+    
+    
+    
+
+    <div class="container">
+        <!--Campus Life-->
+        <div class="page-header" id="campus_life">
+            <h2 class="text-capitalize">Campus Life</h2>
+
+            <div class="row">
+                <!--1st Campus Life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="Swimming%20Pool.jpg">
+                    <h4 class="text-capitalize"><kbd>School Swimming Pool</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Is Very Large</h5>
+                    <p class="text-muted text-left">The swimming pool in tis school is very large and is equipped with an equiped with an equipment room.</p>
+                </div>
+                <!--2nd Campus Life-->
+                <div class="travel_mainDiv">
+                    <!--Give appropriate class below for the image img-responsive-->
+                    <img class="img-responsive" src="VIBGYOR_High_School_2510_Library_3_22%20(1).webp">
+                    <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+                    <hr>
+                    <!--Give classes below text-success text-left-->
+                    <h5 class="text-success text-left text-capitalize">Was built in 2000</h5>
+                    <p class="text-muted text-left">The school library has millions of books. You can choose any genre of your choies.</p>
+
+                </div>
+                <!--3rd Campus life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://i.postimg.cc/cLDDX2xz/st3.jpg">
+                    <!-- Give text-capitalize below to make the first letters in Capitals-->
+                    <h4 class="text-capitalize"><kbd>school auditorium</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">It is massive</h5>
+                    <!-- Give text-muted below to show the text in grey color-->
+                    <p class="text-muted text-left">The school auditorium is where most events take place</p>
+                </div>
+
+            </div>
+        </div>
+        <!--Achievements-->
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">school achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+            Annual Sports Day Event <i class="fa fa-sort-desc"></i>
+        </div>
+        <!--1st Achievement-->
+        <div id="school_achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="download.jpeg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">I Won first prize in Annual Sports Day Event
+                </h5>
+                
+            </div>
+        </div>
+        <!--2nd Achievement-->
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+            Inter School Football Competition<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement2" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                
+                <img src="https://i.postimg.cc/sxcP1G1L/sm2.jpg" class="img-responsive img-thumbnail">
+            </div>
+            
+            <div class="movie_text col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <h5 class="text-success text-left text-capitalize">The red house team Came second in inter school football competition
+                </h5>
+                
+            </div>
+        </div>
+
+        <!--3rd Achievement--->
+
+        <div class="bg-primary  movie_head" data-toggle="collapse" data-target="#school_achievement3">
+            Inter School dance Competition<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement3" class="collapse">
+            <!-- Add bootstrap col-lg-3 col-md-3 col-sm-3 col-xs-12-->
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="maxresdefault.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+              <h5 class="text-left text-success text-capitalize">Green house team Won second price in inter school Dance competition
+                </h5>
+                
+            </div>
+        </div>
+
+    </div>
+    <div id="footer"></div>
+    
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1944.8802085442082!2d77.6048155790985!3d12.85874504291693!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x611cdb6d00f271bd!2sVIBGYOR%20High%20School%2C%20Bannerghatta%2C%20Bengaluru!5e0!3m2!1sen!2sin!4v1630410902631!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+        </div>
+    
+    
+</body>
+
+</html>
